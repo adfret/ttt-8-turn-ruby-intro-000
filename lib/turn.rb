@@ -60,10 +60,8 @@ return display_board()
 # # else
 # #  turn(board)
 else
-  puts "Please enter 1-9:"
-  input = gets.strip
-  input = input_to_index(input.to_i)
-return turn()
+
+return turn(board)
 end
 
 end
