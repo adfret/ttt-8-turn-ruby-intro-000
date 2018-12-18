@@ -60,7 +60,17 @@ return display_board()
 # # else
 # #  turn(board)
 else
-  return turn(board)
+  puts "Please enter 1-9:"
+  input = gets.strip
+  input = input_to_index(input.to_i)
+  if valid_move?(board,input=0)
+   move(board,input,value="X")
+
+     return true
+  return display_board()
+else 
+  turn (board)
+end 
 end
 
 end
