@@ -53,9 +53,9 @@ puts "Please enter 1-9:"
 input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
-  return true
  move(board,input,value="X")
  return display_board(board)
+   return true
 # # else
 # #  turn(board)
 else
