@@ -56,7 +56,7 @@ if valid_move?(board,input=0)
  move(board,input,value="X")
 
    return true
-  #  return display_board(board)
+p display_board(board)
 # # else
 # #  turn(board)
 else
