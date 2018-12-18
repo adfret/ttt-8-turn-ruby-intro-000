@@ -59,7 +59,7 @@ if valid_move?(board,input=0)
 return display_board()
 # # else
 # #  turn(board)
-elsif valid_move?(board,input) == false
+else
   return turn(board)
 end
 
