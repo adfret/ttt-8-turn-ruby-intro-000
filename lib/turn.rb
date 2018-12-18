@@ -49,7 +49,7 @@ end
 
 
 def turn(board)
-puts "Please enter 1-9:"
+puts "Please enter 1-9:\n"
 input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
