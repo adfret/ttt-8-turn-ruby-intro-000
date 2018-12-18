@@ -54,7 +54,7 @@ input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
   return true
-return move(board,input,value)
+return move(board,input,value="X")
 # # else
 # #  turn(board)
 else
