@@ -56,13 +56,12 @@ if valid_move?(board,input=0)
  move(board,input,value="X")
 
    return true
-print display_board(board)
+print display_board(move(board,input,value="X"))
 # # else
 # #  turn(board)
 else
-  return "1"
-puts "Please enter 1-9:"
-return turn(any_args)
+
+return turn(board)
 end
 
 end
