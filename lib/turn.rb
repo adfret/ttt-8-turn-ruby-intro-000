@@ -54,12 +54,12 @@ input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
   return true
-display_board(move(board,input,value))
+boards = display_board(move(board,input,value))
 # # else
 # #  turn(board)
 else
 # puts "Please enter 1-9:"
-return turn(board)
+return turn(boards)
 end
 
 end
