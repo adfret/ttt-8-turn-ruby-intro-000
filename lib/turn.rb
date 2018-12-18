@@ -54,12 +54,13 @@ input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
   return true
-board = move(board,input,value)
+# board = move(board,input,value)
 p display_board(board)
 # # else
 # #  turn(board)
 else
-return turn(board)
+return 1
+turn(board)
 end
 
 end
