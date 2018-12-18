@@ -59,7 +59,7 @@ boards = display_board(move(board,input,value))
 # #  turn(board)
 else
 # puts "Please enter 1-9:"
-return turn(boards)
+return turn(board)
 end
 
 end
