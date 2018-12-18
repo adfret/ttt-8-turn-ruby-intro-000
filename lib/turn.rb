@@ -61,7 +61,7 @@ if valid_move?(board,input=0)
 # #  turn(board)
 else
 # puts "Please enter 1-9:"
-return turn(board)
+p turn(board)
 end
 
 end
