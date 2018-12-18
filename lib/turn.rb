@@ -66,7 +66,7 @@ if valid_move?(board,input=0)
   return true
   move(board,input,value)
 display(board)
-end 
+end
 end
 
 end
