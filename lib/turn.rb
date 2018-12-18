@@ -59,8 +59,8 @@ p display_board(board)
 # # else
 # #  turn(board)
 else
-return "1"
-return turn(board)
+puts "Please enter 1-9:"
+turn(board)
 end
 
 end
