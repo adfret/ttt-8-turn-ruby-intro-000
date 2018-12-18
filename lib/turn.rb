@@ -64,7 +64,7 @@ input = gets.strip
 input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
   return true
-end 
+end
 end
 
 end
