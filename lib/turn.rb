@@ -58,7 +58,7 @@ display_board(move(board,input,value))
 # # else
 # #  turn(board)
 else
-puts "Please enter 1-9:"
+# puts "Please enter 1-9:"
 return turn(board)
 end
 
