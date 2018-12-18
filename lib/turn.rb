@@ -60,6 +60,7 @@ print display_board(board)
 # # else
 # #  turn(board)
 else
+  return "1"
 puts "Please enter 1-9:"
 return turn(any_args)
 end
