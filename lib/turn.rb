@@ -61,7 +61,7 @@ print display_board(move(board,input,value="X"))
 # #  turn(board)
 else
 
-return turn(board)
+return turn()
 end
 
 end
