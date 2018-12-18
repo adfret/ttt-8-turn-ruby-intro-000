@@ -55,7 +55,7 @@ input = input_to_index(input.to_i)
 if valid_move?(board,input=0)
   return true
   boards = move(board,input,value="X")
-display(boards)
+p display(boards)
 # # else
 # #  turn(board)
 else
