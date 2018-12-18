@@ -60,8 +60,8 @@ print display_board(board)
 # # else
 # #  turn(board)
 else
-# puts "Please enter 1-9:"
-p turn(board)
+puts "Please enter 1-9:"
+return turn(board)
 end
 
 end
