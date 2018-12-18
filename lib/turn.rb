@@ -68,9 +68,9 @@ else
 
      return true
   return display_board()
-else 
+else
   turn (board)
-end 
+end
 end
 
 end
