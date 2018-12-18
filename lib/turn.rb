@@ -59,7 +59,14 @@ display(board)
 # # else
 # #  turn(board)
 else
-  turn(board)
+  puts "Please enter 1-9:"
+input = gets.chomp
+input = input_to_index(input.to_i)
+if valid_move?(board,input=0)
+  return true
+  move(board,input,value)
+display(board)
+end 
 end
 
 end
