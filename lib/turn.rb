@@ -59,7 +59,7 @@ p display_board(board)
 # # else
 # #  turn(board)
 else
-return 1
+return "1"
 turn(board)
 end
 
